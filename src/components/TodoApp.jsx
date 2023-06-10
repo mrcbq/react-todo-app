@@ -12,7 +12,7 @@ import ProtectedRoute from '@/components/ProtectedRoute';
 const TodoApp = () => {
   return (
     <Routes>
-      <Route path="/" element={<Layout />}>
+      <Route path="/" element={<Layout />} basename="/https://mrcbq.github.io/react-todo-app/">
         <Route index element={<Home />} />
         <Route path="about" element={<About />}>
           <Route path=":slug" element={<SinglePage />} />
