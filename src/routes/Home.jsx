@@ -3,7 +3,6 @@ import TodosLogic from '@/components/TodosLogic';
 
 const Home = () => {
   return (
-    // <div className="wrapper"> remove the div
     <div className="todos">
       <Header>
         <h1>todos</h1>
@@ -11,7 +10,6 @@ const Home = () => {
       </Header>
       <TodosLogic />
     </div>
-    // </div>
   );
 };
 export default Home;
